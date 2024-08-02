@@ -75,13 +75,13 @@ try {
             this.m_btn_AutoSetting.visible = false;
         }
         this.m_img_StopAuto.visible = !P.cat.isAuto;
-        u(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @clqkx`);
+        u(`AutoBot ${P.cat.isAuto ? 'đã kích hoạt' : 'đã tắt'}!\n\nĐược crack bởi @bibo318`);
     }
     
     // Gán hàm onClickAuto vào prototype của N thay vì M
     N.prototype.onClickAuto = onClickAuto;
     console.log(`${consolePrefix}Script đã tải`, consoleGreen);
-    console.log(`${consolePrefix}Được crack bởi @clqkx`, consoleGreen);
+    console.log(`${consolePrefix}Được crack bởi @bibo318`, consoleGreen);
 
 } catch (e) {
     console.log(`${consolePrefix}Đã xảy ra lỗi, điểm dừng được đặt không đúng!`, consoleRed);
